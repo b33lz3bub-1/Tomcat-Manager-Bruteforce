@@ -1,7 +1,8 @@
-# Tomcat Manager Locin Creds Bruteforce
+# Tomcat Manager Login Creds Bruteforce
 This script will bruteforce the credential of tomcat manager or host-manager
 
-Example:
+## Example:
+```
+python mgr_brute.py -u users.txt -p pass.txt -U http://10.10.10.194:8080/ -P host-manager/ 
 
-python mgr_brute.py -u users.txt -p pass.txt -U http://10.10.10.194:8080/ -P host-manager/
-
+```
